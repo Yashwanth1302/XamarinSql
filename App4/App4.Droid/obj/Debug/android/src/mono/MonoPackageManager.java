@@ -107,7 +107,6 @@ class MonoPackageManager_Resources {
 		"Microsoft.Azure.Mobile.Crashes.Android.Bindings.dll",
 		"Microsoft.Azure.Mobile.Crashes.dll",
 		"Microsoft.Azure.Mobile.dll",
-		"Newtonsoft.Json.dll",
 		"SQLite-net.dll",
 		"SQLite.Net.dll",
 		"SQLite.Net.Platform.XamarinAndroid.dll",
@@ -128,6 +127,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
