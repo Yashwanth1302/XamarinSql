@@ -2,8 +2,8 @@
 using System;
 using System.IO;
 using Xamarin.Forms;
-using System.Net.Http;
-using System.Net.Http.Headers;
+//using System.Net.Http;
+//using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -44,16 +44,16 @@ namespace App4
         }
         public async Task GetConferences()
         {
-            var client = new HttpClient();
-            client.BaseAddress = new Uri("http://172.31.0.61/fleximaster/api/FlexiMasters");
+           // var client = new HttpClient();
+           // client.BaseAddress = new Uri("http://172.31.0.61/fleximaster/api/FlexiMasters");
             
-            string jsonData = @"{""MasterNumber"" : ""12"", ""FromNo"" : ""1"", ""ToNo"" : ""500""}";
+           // string jsonData = @"{""MasterNumber"" : ""12"", ""FromNo"" : ""1"", ""ToNo"" : ""500""}";
 
-            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+           // var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
             //var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            HttpResponseMessage response = await client.PostAsync("http://172.31.0.61/fleximaster/api/FlexiMasters", content);
+           // HttpResponseMessage response = await client.PostAsync("http://172.31.0.61/fleximaster/api/FlexiMasters", content);
             //HttpResponseMessage response = await client.PostAsync("http://172.31.0.61/fleximaster/api/FlexiMasters", content);
-            var result = await response.Content.ReadAsStringAsync();
+//var result = await response.Content.ReadAsStringAsync();
 
             //var result = await response.Content.ReadAsStringAsync();
 
