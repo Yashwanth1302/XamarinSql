@@ -72,7 +72,7 @@ namespace App4
             student.Name = name.Text;
 
             student.Address = address.Text;
-            student.Phone = phone.Text;
+            //student.Phone = phone.Text;
             //studentdb.AddStusent(student);
             studentdb.UpdateStudent(student);
             //studentdb.DeleteStudent(Convert.ToInt32(student.Name));
